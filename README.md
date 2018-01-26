@@ -1,4 +1,4 @@
-# Cal-Range-Picker
+# CalRangePicker
 
 Tools: HTML5, CSS3, JavaScript, jQuery
 
