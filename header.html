@@ -1,38 +1,39 @@
 <!DOCTYPE html>
-<html>
 <head>
-<title>Calendar Range Picker</title>
-<link rel="stylesheet" type="text/css" href="head.css">
-<script src="js/angular.min.js"></script>
-<script src="js/jquery-1.10.2.js"></script>
-<script src="js/jquery-ui.js"></script>
-<script src="js/jquery.timepicker.js"></script>
-<script src="js/custom.js"></script>
+  <title>Calendar Range Picker</title>
+  <link rel="stylesheet" type="text/css" href="head.css">
+  <script src="js/angular.min.js"></script>
+  <script src="js/jquery-1.10.2.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/jquery.timepicker.js"></script>
+  <script src="js/custom.js"></script>
 </head>
+
 <body>
-<div class="main_container">
-	<div class="subnav">
-		<div class="subnavblock">
-		
-			<div class="sub-box" >
-				<label for="from" class="formlabel" >STARTS</label> <input type="text" id="from" class="formdate from" disabled="disabled">
-			</div>
-			<div class="sub-box" >
-				<label for="to" class="formlabel" >ENDS</label> <input type="text" id="to" class="formdate to" disabled="disabled">
-			</div>
-			<div class="expanded_span">
-				<a href="javascript:;" class="cross-sign">X</a>
-				<a href="javascript:;" class="maximise" onClick="maximise_calendar(); " >+</a>
-				<div class="datepicker-header" id="datepicker-header">
-					<input type="text" name="from-date" id="from-date" class="from formdate-start"  disabled="disabled">
-					<input type="text" name="from-time" id="from_time" value="9:00 AM" class="formtime timepicker">
-					<span class="sign">~</span>
-					<input type="text" name="to-date" id="to-date" class="to formdate-start"  disabled="disabled" >
-					<input type="text" name="check_out_date" id="to_time" value="9:00 AM" class="formtime timepicker"  >
-				</div>
-				<div id="datepicker"></div>
-			</div>
-		</div>
-	</div>   
-</div>
-</body></html>
+  <div class="main_container">
+    <div class="subnav">
+      <div class="subnavblock">
+
+        <div class="sub-box">
+          <label for="from" class="formlabel">STARTS</label> <input type="text" id="from" class="formdate from" disabled="disabled">
+        </div>
+        <div class="sub-box">
+          <label for="to" class="formlabel">ENDS</label> <input type="text" id="to" class="formdate to" disabled="disabled">
+        </div>
+        <div class="expanded_span">
+          <a href="javascript:;" class="cross-sign">X</a>
+          <a href="javascript:;" class="maximise" onClick="maximise_calendar(); ">+</a>
+          <div class="datepicker-header" id="datepicker-header">
+            <input type="text" name="from-date" id="from-date" class="from formdate-start" disabled="disabled">
+            <input type="text" name="from-time" id="from_time" value="9:00 AM" class="formtime timepicker">
+            <span class="sign">~</span>
+            <input type="text" name="to-date" id="to-date" class="to formdate-start" disabled="disabled">
+            <input type="text" name="check_out_date" id="to_time" value="9:00 AM" class="formtime timepicker">
+          </div>
+          <div id="datepicker"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
